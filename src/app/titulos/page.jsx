@@ -13,7 +13,19 @@ export default function CorinthiansTrophiesPage() {
         <section className={styles.featured}>
           <h2>Conquistas Principais</h2>
           <div className={styles.featuredTrophies}>
-            <Card ano={"2012"} capa={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FIFA_CLUB_WORLDCUP.jpg/450px-FIFA_CLUB_WORLDCUP.jpg"} detalhes={"Corinthians 1 x 0 Chelsea"} textoAlt={"Troféu do Mundial de Clubes da FIFA 2012"} titulo={"Mundial de Clubes da FIFA"} />
+            <Card ano={"2012"}
+            capa={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FIFA_CLUB_WORLDCUP.jpg/450px-FIFA_CLUB_WORLDCUP.jpg"} 
+            detalhes={"Corinthians 1 x 0 Chelsea"}
+            textoAlt={"Troféu do Mundial de Clubes da FIFA 2012"} 
+            titulo={"Mundial de Clubes da FIFA"} />
+
+            <Card ano={"2012"}
+            capa={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/FIFA_CLUB_WORLDCUP.jpg/450px-FIFA_CLUB_WORLDCUP.jpg"} 
+            detalhes={"Corinthians 2 x 0 Boca Juniors"}
+            textoAlt={"Troféu da Copa Libertadores da América 2012"}
+            titulo={"Copa Libertadores da América"} />
+
+
             <div className={styles.trophy}>
               <div className={styles.trophyCover}>
                 <img
